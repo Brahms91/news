@@ -1,6 +1,7 @@
 <?php
+include __DIR__ . '/../model/news.php';
 
-phpinfo();
+$items = indexnNews();
 
-fgf
+include __DIR__ . '/../view/index.php';
 ?>

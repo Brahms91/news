@@ -6,5 +6,19 @@
 </head>
 
 <body>
+    <table>
+        <tr>
+            <td><?php
+
+
+            foreach($items as $item){
+
+                
+
+            }
+
+                ?></td>
+        </tr>
+    </table>
 </body>
 </html>
