@@ -1,5 +1,5 @@
 <?php
-$date = date("d-m-y H:i:s");
+$date = date("d-m-y , H:i:s");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,6 +9,7 @@ $date = date("d-m-y H:i:s");
 </head>
 
 <body>
+
 <form action="../contr/addnews.php" enctype="multipart/form-data" method="post">
     <label for="news_name">Имя новости:</label><br>
         <input type="text" id="news_name" name="name" size="25"/><br><br>

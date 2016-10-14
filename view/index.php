@@ -13,7 +13,13 @@
 
             foreach($items as $item){
 
-                
+                echo $item['title']."<br>";
+                echo $item['short']."<br>";
+                echo $item['description']."<br>";
+                echo $item['date']."<br>";
+               ?>
+                <a href="../contr/fullnews.php?id=<?=$item['id']?>">Полная новость</a>
+                <?php
 
             }
 

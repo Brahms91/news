@@ -19,4 +19,15 @@ return $select_news;
 
 }
 
+function SelectFullNews($sql)
+{
+   $full_news = [];
+   $res = mysql_query($sql);
+   while(false !== $row = mysql_fetch_assoc($res) ){
+      $full_news[] = $row;
+   }
+   return $full_news;
+
+}
+
 ?>
